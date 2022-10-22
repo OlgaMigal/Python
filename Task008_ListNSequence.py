@@ -3,8 +3,9 @@
 # - Для n=4 [2, 2.25, 2.37, 2.44]
 # Сумма 9.06
 
-number = int(input(f'Введите число: '))
+
 def task008():
+    number = int(input(f'Введите число: '))
     summa_list = list_n_sequence(number)
     print(f'Для n = {number}   {summa_list}')
     sum(summa_list)
