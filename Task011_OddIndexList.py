@@ -7,7 +7,7 @@
 
 from random import randint
 
-def Task011():
+def task011():
     step = 2
     shuffle_list = list_creation()
     odd_list = odd_index_list(shuffle_list, step)
@@ -37,4 +37,4 @@ def odd_index_sum(new_odd_list):
     return my_sum
 
 
-Task011()
+task011()
