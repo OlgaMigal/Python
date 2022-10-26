@@ -31,10 +31,10 @@ def odd_index_list(my_list, one_step):
 
 
 def odd_index_sum(new_odd_list):
-    sum = 0
+    my_sum = 0
     for el in new_odd_list:
-        sum += el
-    return sum
+        my_sum += el
+    return my_sum
 
 
 Task011()
